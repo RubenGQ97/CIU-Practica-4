@@ -1,20 +1,23 @@
-# Sistema planetario
-Practica 3 de CIU
-# CIU - Práctica 3
+# Sistema planetario con cámara libre
+Practica 4 de CIU
+# CIU - Práctica 4
 # Rubén García Quintana
 
-## Visualización de sistema planetario.
+## Visualización de sistema planetario desde una camara libre.
 
-Esta practica consiste en utilizar lo aprendido sobre tranformaciones de elementos 3D para realizar el diseño de un sistema planetario.
+Esta práctica consiste en crear una opción de cámara libre para el sistema planetario desarrolado en la anterior práctica.
 
 Aqui podemos ver un gif con una pequeña demostración de su ejecución. 
 
-![](gifplanetas.gif)
+![](planetas.gif)
 
 
 ### Desarrollo de la práctica
 
-Para la realizacion de esta practica, se creado distintas clases, una general llamada "sistema" que acogera los distintos elementos del sistema planetario, representados haciendo uso de las clase "planeta" y "satelite".
+Para la realizacion de esta practica, se ha usado como base la práctica 3 desarrollada anteriormente y se le ha añadido una opción para pode navegar por el sistema planetario.
 
-Para dar la textura a los diferentes elementos se ha usado la clase PImage que nos permite usar images guardadas en la carpeta data para aplicarlas a los objetos PShape.
+Para el desarrollo de la práctica se ha añadido una variable que funcione como selector de modo libre o el modo de observación normal.
+
+Para el desarrollo de la camara se ha utilizado el metodo "camera()" que nos permite posicionar la vision de nuestro modelo 3D.
+
 
